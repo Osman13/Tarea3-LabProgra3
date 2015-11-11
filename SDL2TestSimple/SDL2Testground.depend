@@ -588,7 +588,7 @@
 1446229851 source:/home/turupawn/Clases/Progra3Capybara/Lab/SDL2TestSimple-master/Enemigo.cpp
 	"Enemigo.h"
 
-1446840340 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\main.cpp
+1447264936 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\main.cpp
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
@@ -940,19 +940,19 @@
 	"begin_code.h"
 	"close_code.h"
 
-1446835662 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\alien.cpp
+1447265273 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\alien.cpp
 	"Alien.h"
 
 1446834632 c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\alien.h
 	"Enemigo.h"
 
-1446839012 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\giant.cpp
+1447265273 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\giant.cpp
 	"Giant.h"
 
 1446832523 c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\giant.h
 	"Enemigo.h"
 
-1446839966 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\knight.cpp
+1447265234 source:c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\knight.cpp
 	"Knight.h"
 
 1446837631 c:\users\olman\documents\osman oliva unitec\programación iii\sdl2testsimple\knight.h

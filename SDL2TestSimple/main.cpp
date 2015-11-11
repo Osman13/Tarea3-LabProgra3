@@ -14,7 +14,7 @@ SDL_Window* window;
 SDL_Renderer* renderer;
 SDL_Event Event;
 SDL_Texture *background,*character;
-SDL_Rect rect_background,rect_character,wall;
+SDL_Rect rect_background,rect_character;
 Mix_Music* music = NULL;
 
 
@@ -56,11 +56,6 @@ int main( int argc, char* args[] )
     rect_background.y = 0;
     rect_background.w = w;
     rect_background.h = h;
-
-    wall.x = 300;
-    wall.y = 40;
-    wall.w = 40;
-    wall.h = 400;
 
     Jugador jugador(renderer);
 

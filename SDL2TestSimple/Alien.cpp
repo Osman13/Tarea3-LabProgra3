@@ -17,7 +17,7 @@ Alien::Alien(SDL_Renderer* renderer, Jugador* jugador) : Enemigo(renderer, jugad
     x = rand()%100;
     y = rand()%100;
 
-    velocity=0.5;
+    velocity=1;
     animation_velocity=20;
 
     current_texture=0;
@@ -32,21 +32,26 @@ Alien::~Alien()
 
 void Alien::logica()
 {
-    if(jugador->y+5<y)
+    if(jugador->x-5>x)
     {
-        state="up";
+        state="right";
     }
-    if(jugador->y-5>y)
+    if(jugador->x+5<x)
+    {
+        state="left";
+    }
+    if(state=="right")
+    {
+        x+=velocity;
+    }
+    if(state=="left")
+    {
+        x-=velocity;
+    }
+
+    if(jugador->x == x && jugador->y == y)
     {
         state="down";
-    }
-    if(state=="up")
-    {
-        y-=velocity;
-    }
-    if(state=="down")
-    {
-        y+=velocity;
     }
 
     if(frames%animation_velocity==0)

@@ -17,7 +17,7 @@ Giant::Giant(SDL_Renderer* renderer,Jugador* jugador) : Enemigo(renderer, jugado
     x = rand()%100;
     y = rand()%100;
 
-    velocity=0.5;
+    velocity=1;
     animation_velocity=20;
 
     current_texture=0;

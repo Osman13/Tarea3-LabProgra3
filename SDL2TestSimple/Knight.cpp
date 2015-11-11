@@ -32,26 +32,28 @@ Knight::~Knight()
 
 void Knight::logica()
 {
-    if(jugador->x+10<x)
+    if(jugador->y+5<y)
     {
-        state="right";
+        state="up";
     }
-    if(jugador->x-10>x)
+    if(jugador->y-5>y)
     {
-        state="left";
+        state="down";
     }
-    if(state=="right")
+    if(jugador->x+5<x)
     {
+        x-=velocity;
+    }
+    if(jugador->x-5>x)
         x+=velocity;
-    }
-    if(state=="left")
+
+    if(state=="up")
     {
-        x-=velocity;
+        y-=velocity;
     }
-    if(width >=100)
+    if(state=="down")
     {
-        state="left";
-        x-=velocity;
+        y+=velocity;
     }
 
     if(frames%animation_velocity==0)

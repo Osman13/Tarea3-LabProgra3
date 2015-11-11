@@ -16,7 +16,7 @@ Jugador::Jugador(SDL_Renderer* renderer)
     x = 0;
     y = 0;
 
-    velocity=1.5;
+    velocity=2;
     animation_velocity=20;
 
     current_texture=0;
